@@ -48,15 +48,15 @@ export function Listings() {
               layout
               initial={{ opacity: 0, y: 26 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.6, delay: i * 0.05 }}
+              viewport={{ once: true, amount: 0.05 }}
+              transition={{ duration: 0.6, delay: Math.min(i * 0.05, 0.3) }}
               className={`surface-card hover-lift sheen group relative flex flex-col overflow-hidden rounded-3xl ${l.span ?? ""}`}
             >
-              <div className="relative flex-1 overflow-hidden">
+              <div className="relative flex-1 overflow-hidden bg-secondary">
                 <img
                   src={l.image}
                   alt={`${l.title} in ${l.area}`}
-                  loading="lazy"
+                  loading="eager"
                   width={1024}
                   height={768}
                   className="h-full min-h-44 w-full object-cover transition-transform duration-700 group-hover:scale-110"
