@@ -60,7 +60,7 @@ export function Projects() {
             key={title}
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-60px" }}
+            viewport={{ once: true, amount: 0.05 }}
             transition={{ duration: 0.6, delay: i * 0.06 }}
             className={`surface-card group relative overflow-hidden rounded-3xl p-6 transition-all duration-500 hover:-translate-y-1 hover:shadow-[var(--shadow-glow)] ${className ?? ""}`}
           >

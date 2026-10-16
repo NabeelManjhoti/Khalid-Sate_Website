@@ -22,7 +22,7 @@ export function About() {
             <img
               src={father.url}
               alt={BUSINESS.father.name}
-              loading="lazy"
+              loading="eager"
               className="h-72 w-full object-cover object-top sm:h-96"
             />
             <figcaption className="p-4">
@@ -37,7 +37,7 @@ export function About() {
             <img
               src={noman.url}
               alt={BUSINESS.brother.name}
-              loading="lazy"
+              loading="eager"
               className="h-72 w-full object-cover object-top sm:h-96"
             />
             <figcaption className="p-4">
