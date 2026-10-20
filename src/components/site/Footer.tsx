@@ -6,9 +6,6 @@ export function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <p className="text-lg font-extrabold text-silver">{BUSINESS.name}</p>
-          <p className="mt-2 max-w-sm text-xs leading-relaxed text-muted-foreground">
-            {BUSINESS.address}
-          </p>
         </div>
         <div className="text-xs text-muted-foreground sm:text-right">
           <p>

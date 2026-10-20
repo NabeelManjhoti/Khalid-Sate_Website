@@ -9,7 +9,7 @@ export const BUSINESS = {
   name: "Khalid Estate",
   tagline: "Building the web of trust, cinematically.",
   address:
-    "Shop No. 6, Halal Book Wali Building, Main Mehmoodabad Gate, Karachi, Pakistan",
+    "Shop No. 6, Halal Book Wali Building, Main Mehmoodabad Gate, Near Taj Masjid, Karachi, Pakistan",
   father: {
     name: "Muhammad Khalid Farooqi Qureshi",
     role: "Founder & Chief Property Consultant",
