@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
-import { ArrowRight, MapPin } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import heroImg from "@/assets/hero.jpg.asset.json";
 import { BUSINESS } from "@/lib/site-data";
 
@@ -166,10 +166,6 @@ export function Hero() {
           ))}
         </motion.div>
 
-        <p className="mt-10 inline-flex items-center gap-2 text-xs text-muted-foreground">
-          <MapPin className="h-3.5 w-3.5 text-accent" />
-          {BUSINESS.address}
-        </p>
       </div>
     </section>
   );
